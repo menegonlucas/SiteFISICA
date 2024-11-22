@@ -1,0 +1,116 @@
+html,
+body {
+    height: 100%;
+    /* Garante que o body ocupe toda a altura da janela */
+    margin: 0;
+    /* Remove margens padrão */
+}
+
+body {
+    min-height: 100vh;
+    /* Garante que o body tenha pelo menos a altura da janela */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    background: linear-gradient(to bottom, #6D597A, #DCCDE8);
+    /* Gradiente do topo para baixo */
+    color: #000000;
+    /* Cor do texto */
+}
+
+header {
+
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    /* Centraliza o texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Centraliza os itens do menu */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    /* Adiciona um pouco de espaçamento ao redor do texto */
+    border-radius: 15px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Transição suave para a mudança de cor */
+}
+
+nav a:hover {
+    background-color: #f0d3f7;
+    /* Cor de fundo ao passar o mouse */
+    color: #5F3A7E;
+    /* Mantém a cor do texto ao passar o mouse */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Alinha o conteúdo ao centro */
+    padding: 40px;
+}
+
+section {
+    background-color: #F5F3F6;
+    /* Fundo semi-transparente para seções */
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+    width: 95%;
+    /* Para que as seções ocupem toda a largura disponível */
+    max-width: 900 px;
+    /* Limita a largura máxima das seções */
+    border-radius: 25px;
+    text-align: justify;
+    /* Centraliza o texto dentro das seções */
+}
+
+h2 {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+img {
+    padding: 10px;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* Centraliza o conteúdo do footer */
+    padding: 20px;
+    font-family: cursive;
+    font-size: medium;
+    background-color: transparent;
+    /* Torna o fundo do footer transparente */
+}
